@@ -1,0 +1,42 @@
+.picture {
+    flex-direction:row;
+    
+}
+h1 {
+    font-family: 'Merriweather', serif, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    #1F1F1F
+}
+ul,li{
+    font-family:'Merriweather',
+        serif;
+    font-weight: 300;
+    font-size: 33px;
+    flex-direction: right;
+    display:inline;
+    word-spacing: .9em;
+       
+}
+h2 {
+    font-family: 'Montserrat',sans-serif, Arial, Helvetica, sans-serif, Times;
+    word-spacing: .3em;
+    text-align: center;
+    color: #a29295;
+}
+
+button {
+    font-family: 'Merriweather',
+        serif;
+        font-weight: 700;
+   background-color:#F69C3C;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 444px;
+    
+    
+
+}
