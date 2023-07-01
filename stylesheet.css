@@ -1,26 +1,28 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
-    
+
+
 }
 
-       .image-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-        figure {
-            flex-basis: 30%;
-            text-align: center;
-        }
+figure {
+    flex-basis: 30%;
+    text-align: center;
+}
 
-        figcaption {
-            font-size: 33px;
-            margin-top: 8px;
-        }
+figcaption {
+    font-size: 33px;
+    margin-top: 8px;
+}
 
-body{
+body {
+
 
     background: rgb(248, 248, 248);
     width: 80%;
@@ -28,16 +30,32 @@ body{
 
 }
 
+#locked-text {
+
+    font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif, Times;
+    word-spacing: .3em;
+    text-align: center;
+    color: #a29295;
+    font-size: 50px;
+    padding-bottom: 40px;
+
+}
+
+
 h1 {
     font-family: 'Merriweather', serif, Arial, Helvetica, sans-serif;
     text-align: center;
     font-weight: 700;
-    color:#1F1F1F;
+    color: #1F1F1F;
     font-size: 65px;
 }
 
 .container {
-    font-family:'Merriweather',
+
+
+    background-color: #f1f1f1;
+
+    font-family: 'Merriweather',
         serif;
     font-weight: 300;
     font-size: 20px;
@@ -52,59 +70,53 @@ h1 {
     margin-top: 50px;
     /*hide overflow of hover background*/
     overflow: hidden;
-    
+
 
 }
 
 /*remove bullets*/
 
 li {
+
     list-style-type: none;
     /* change li display property from block to inline block*/
     display: inline-block;
-    
+
 }
+
 /*style the anchor elements*/
-li a{
+li a {
+
 
     text-decoration: none;
-    display:block;
+    display: block;
     width: 100%;
     height: 100%;
-    font-size:45px;
-    color:#1F1F1F;
+    font-size: 45px;
+    color: #1F1F1F;
     padding: 10px 40px;
     font-weight: 600;
 }
-    
-    
+
+
 /*Apply hover*/
 
-a:hover{
-    background-color:#f0f0f0;
+a:hover {
+    background-color: #f0f0f0;
     border-radius: 40px;
 
 }
 
-h2 {
-    font-family: 'Montserrat',sans-serif, Arial, Helvetica, sans-serif, Times;
-    word-spacing: .3em;
-    text-align: center;
-    color: #a29295;
-    font-size: 45px;
-    padding-bottom: 40px;
-}
-
 button {
     font-family: 'Merriweather', serif;
-        font-weight: 700;
-   background-color:#F69C3C;
-    border:ridge;
+    font-weight: 700;
+    background-color: #F69C3C;
+    border: ridge;
     padding: 19px;
     display: inline-block;
     font-size: 30px;
     border-radius: 12px;
-    
+
 }
 
 .center {
@@ -113,5 +125,3 @@ button {
     align-items: center;
     height: 200px;
 }
-
-
