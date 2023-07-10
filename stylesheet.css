@@ -241,3 +241,21 @@ figcaption {
     padding: 20px;
     padding-bottom: 2px;
 }
+
+#inspiration-text {
+    font-size: 24px;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif, Times;
+    font-weight: 600;
+    color: #000000;
+    border: 6px solid;
+    border-radius: 45px;
+    border-color: rgba(243, 156, 18, .80);
+    margin-top: 20px;
+
+
+}
+
+#body-padding {
+    padding-bottom: 40px;
+}
