@@ -51,7 +51,7 @@ body {
     font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif, Times;
     word-spacing: .3em;
     text-align: center;
-    color: #494444;
+    color: #000000;
     font-size: 35px;
     padding-bottom: 20px;
 
@@ -116,7 +116,7 @@ li a {
     width: 100%;
     height: 100%;
     font-size: 40px;
-    color: #1F1F1F;
+    color: #000000;
     padding: 2px 40px;
     font-weight: 600;
 }
@@ -182,6 +182,7 @@ button:hover {
     font-size: 20px;
     padding: 50px;
     position: inherit;
+    color: #000000;
 
 
 }
@@ -231,7 +232,7 @@ figure {
 h1,
 h3,
 figcaption {
-    color: #a29295;
+    color: #000000;
 
 }
 
