@@ -45,12 +45,13 @@ body {
 
 }
 
+
 #locked-text {
 
     font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif, Times;
-    word-spacing: .2em;
+    word-spacing: .3em;
     text-align: center;
-    color: #a29295;
+    color: #494444;
     font-size: 35px;
     padding-bottom: 20px;
 
@@ -141,6 +142,12 @@ button {
 
 }
 
+button:hover {
+    color: #f0f0f0;
+    cursor: pointer;
+
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -174,11 +181,14 @@ button {
     margin-right: 60px;
     font-size: 20px;
     padding: 50px;
+    position: inherit;
+
+
 }
 
 #content-container {
 
-    position: fixed;
+    position: absolute;
 
 }
 
