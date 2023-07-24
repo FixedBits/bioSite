@@ -130,30 +130,10 @@ a:hover {
 
 }
 
-button {
-    font-family: 'Merriweather', serif, 'Times New Roman';
-    font-weight: 700;
-    background-color: rgba(243, 156, 18);
-    border: ridge;
-    padding: 19px;
-    display: inline-block;
-    font-size: 30px;
-    border-radius: 12px;
 
-}
 
-button:hover {
-    color: #f0f0f0;
-    cursor: pointer;
 
-}
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-}
 
 #portrait-photo {
 
@@ -270,4 +250,8 @@ figcaption {
 
 #body-padding {
     padding-bottom: 40px;
+}
+
+footer {
+    margin-bottom: 50px;
 }
